@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin-top: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    color:white;
+    
+}
+
+nav
+{
+    background-color: black;
+    padding:0px;
+}
+    .main-nav
+{
+    float:center;
+    list-style:none;
+    margin-top:30px;
+}
+.main-nav li
+{
+    display:inline-block;
+     margin-bottom: 30px;
+    margin-top: 40px;
+}
+.main-nav li a
+{
+    color:white;
+    text-decoration:none;
+    padding:5px 20px;
+    font-family: "roboto",sans-serif;
+     color:#fff!important;
+    font-weight:200;
+    font-size:20px;
+    
+}
+.main-nav li a:hover
+{
+   
+    color:#1eae98!important;
+}
+/*about section*/
+.section{
+    width:100%;
+    min-height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+}
+.container{
+    width:80%;
+    display:block;
+    margin:auto;
+    padding-top: 20px;
+}
+.content-section{
+    float:left;
+    width:55%;
+}
+.content-section .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section .content h3{
+    margin-top: 20px;
+    color:#1eae98;
+    font-size: 21px;
+}
+.content-section .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+/*comment section-2*/
+.content-section-2{
+    float:right;
+    width:55%;
+}
+.content-section-2 .title{
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.content-section-2 .content h3{
+    margin-top: 20px;
+    color:#1eae98;
+    font-size: 21px;
+}
+.content-section-2 .content p{
+    margin-top: 10px;
+    font-family: sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.content-section .social{
+    margin:40px 40px;
+    float:left;
+}
+.content-section .social i{
+    color:#1eae98;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+.content-section .social i:hover{
+    color:#0a1930;
+}
+@media  screen and (max-width:768px) {
+    .container{
+        width:80%;
+        display:block;
+        margin:auto;
+        padding-top: 50px;
+    }
+    .content-section{
+        float:none;
+        width:100%;
+        display:block;
+        margin:auto;
+    }
+    .content-section-2{
+        float:none;
+        width:100%;
+        display:block;
+        margin:auto;
+    }
+    .content-section .title{
+        text-align: center;
+        font-size: 19px;
+    }
+   
+    .content-section .social{
+        text-align: center;
+    }
+}
