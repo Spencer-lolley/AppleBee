@@ -44,7 +44,7 @@ nav
 /*about section*/
 .section{
     width:100%;
-    min-height: 100px;
+    min-height: 100%;
     background-color: rgba(0,0,0,0.5);
 }
 .container{
@@ -52,13 +52,14 @@ nav
     display:block;
     margin:auto;
     padding-top: 100px;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
     overflow: auto;
    
 }
 .content-section{
     float:right;
     width:55%;
+    border-bottom: 1px solid none;
     
 }
 .image-section{
@@ -151,5 +152,6 @@ letter-spacing: 1.5px;
     }
     .content-section .social{
         text-align: center;
+        position: relative;
     }
 }
